@@ -1,139 +1,301 @@
+//***********************************************************************
+//标准标签****************************************************************
+//***********************************************************************
+
 文档声明标签
-<!DOCTYPE>
+<!DOCTYPE>：定义文档类型
 
 根标签
-<html><html>
+<html><html>：定义一个 HTML 文档
 
 头部标签
-<head></head>
-<mate>
-<base/>
-<title></title>
-<link/>
-<style></style>
+<head></head>:	定义关于文档的信息
+
+<mate>:定义关于 HTML 文档的元信息
+
+<base/>:定义页面中所有链接的默认地址或默认目标
+
+<title></title>：为文档定义一个标题
+
+<link/>：定义文档与外部资源的关系
+
+<style></style>：定义文档的样式信息
 
 基本语义结构标签
-<body></body>
-<header></header>
-<nav></nav>
-<main></main>
-<section></section>
-<aside></aside>
-<article></artcile>
-<footer></footer>
+<body></body>：定义文档的主体
+
+<header></header>：定义一个文档头部部分
+
+<nav></nav>：定义导航链接
+
+<main></main>：定义文档的主体部分
+
+<section></section>：定义了文档的某个区域
+
+<aside></aside>：定义其所处内容之外的内容
+
+<article></artcile>：定义一个文章内容
+
+<footer></footer>：定义一个文档底部
+
 
 基本功能标签
 <div></div>
-<span></span>
-<h1>~<h6>
-<a></a>
-<img></img>
-<p></p>
-<address></address>
-<hr/>
-<br/>
-<blockquote></blockquote>
-<q></q>
-<cite></cite>
 
-<details></details>
-<summary></summary>
+<span></span>:定义文档中的节
 
-<meter></meter>
-<progress></progress>
-<time></time>
+<h1>~<h6>：定义 HTML 标题
+
+<a></a>：定义一个链接
+
+<img></img>:定义图像
+
+<p></p>：定义一个段落
+
+<address></address>：定义文档作者或拥有者的联系信息
+
+<hr/>：定义水平线
+
+<br/>：定义简单的折行
+
+<blockquote></blockquote>：定义块引用
+
+<q></q>：定义短的引用
+
+<cite></cite>：定义引用(citation)
+
+<details></details>:定义了用户可见的或者隐藏的需求的补充细节
+
+<summary></summary>:定义一个可见的标题。 当用户点击标题时会显示出详细信息
+
+<meter></meter>：定义度量衡，仅用于已知最大和最小值的度量
+
+<progress></progress>：定义运行中的任务进度（进程）
+
+<time></time>：定义一个日期/时间
 
 
 文本修饰标签
-<abbr></abbr>
-<acronym></acronym>
-<em></em>
-<strong></strong>
-<i></i>
-<dfn></dfn>
-<b></b>
-<big></big>
-<small></small>
-<mark></mark>
-<tt></tt>
-<wbr></wbr>
-<sub></sub>
-<sup></sup>
-<del></del>
-<ins></ins>
-<bdi></bdi>
-<bdo></bdo>
-<code></code>
-<kbd></kbd>
-<pre></pre>
-<rp></rp>
-<rt></rt>
-<ruby></ruby>
-<samp></samp>
+<abbr></abbr>：定义一个缩写
+
+<em></em>：定义强调文本
+
+<strong></strong>：定义语气更为强烈的强调文本
+
+<i></i>：定义斜体文本
+
+<dfn></dfn>：定义一个定义项目
+
+<b></b>：定义粗体文本
+
+<small></small>：定义小号文本
+
+<mark></mark>：定义带有记号的文本
+
+<wbr></wbr>：规定在文本中的何处适合添加换行符
+
+<sub></sub>：定义下标文本
+
+<sup></sup>：定义上标文本
+
+<del></del>：定义被删除文本
+
+<ins></ins>：定义被插入文本
+
+<bdi></bdi>：允许您设置一段文本，使其脱离其父元素的文本方向设置
+
+<bdo></bdo>：定义文本的方向
+
+<code></code>：	定义计算机代码文本
+
+<kbd></kbd>：定义键盘文本
+
+<pre></pre>：定义预格式文本
+
+<rp></rp>：定义不支持 ruby 元素的浏览器所显示的内容
+
+<rt></rt>：定义字符（中文注音或字符）的解释或发音
+
+<ruby></ruby>：定义 ruby 注释（中文注音或字符）
+
+<samp></samp>：定义计算机代码样本
+
+<u></u>：定义下划线文本
+
+<s></s>：定义加删除线的文本
 
 图像与画图标签
-<map></map>
-<area/>
-<canvas></canvas>
-<figure></figure>
-<figcaption></figcaption>
+<map></map>：定义图像映射
+
+<area/>：定义图像地图内部的区域
+
+<canvas></canvas>：通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）
+
+<figure></figure>：对元素进行组合
+
+<figcaption></figcaption>：定义一个 caption for a <figure> element
 
 列表标签
-<ol></ol>
-<ul></ul>
-<dl></dl>
-<dt></dt>
-<dd></dd>
-<li></li>
+<ol></ol>：定义一个有序列表
+
+<ul></ul>：定义一个无序列表
+
+<dl></dl>：定义一个定义列表
+
+<dt></dt>：定义一个定义定义列表中的项目
+
+<dd></dd>：定义定义列表中项目的描述
+
+<li></li>：定义一个列表项
 
 表格标签
-<table></table>
-<thead></thead>
-<tbody></tbody>
-<tfoot></tfoot>
-<caption></caption>
-<th></th>
-<tr></tr>
-<td></td>
-<col></col>
-<colgroup></colgroup>
+<table></table>：定义一个表格
+
+<thead></thead>：定义表格中的表头内容
+
+<tbody></tbody>：定义表格中的主体内容
+
+<tfoot></tfoot>：定义表格中的表注内容（脚注）
+
+<caption></caption>：定义表格标题
+
+<th></th>：定义表格中的表头单元格
+
+<tr></tr>：定义表格中的行
+
+<td></td>：定义表格中的单元
+
+<col></col>：定义表格中一个或多个列的属性值
+
+<colgroup></colgroup>：定义表格中供格式化的列组
 
 表单表签
-<form></form>
-<fieldst></fieldst>
-<legend></legend>
-<label></label>
-<button></button>
-<select></select>
-<option></option>
-<optgroup></optgroup>
-<textarea></textarea>
-<output></output>
-<datalist></datalist>
+<form></form>：定义一个 HTML 表单，用于用户输入
+
+<fieldst></fieldst>：定义围绕表单中元素的边框
+
+<legend></legend>：定义 fieldset 元素的标题
+
+<label></label>：定义 input 元素的标注
+
+<button></button>：定义按钮
+
+<select></select>：定义选择列表（下拉列表）
+
+<option></option>：定义选择列表中的选项
+
+<optgroup></optgroup>：定义选择列表中相关选项的组合
+
+<textarea></textarea>：定义多行的文本输入控件
+
+<output></output>：定义一个计算的结果
+
+<datalist></datalist>：规定了 input 元素可能的选项列表
 
 多媒体标签
-<audio></audio>
-<video></video>
-<source></source>
-<track></track>
+<audio></audio>：定义声音，比如音乐或其他音频流
+
+<video></video>：定义一个音频或者视频
+
+<source></source>：定义media元素 (<video> 和 <audio>)的媒体资源
+
+<track></track>：为媒体(<video> 和 <audio>)元素定义外部文本轨道
 
 JS脚本标签
-<script></script>
-<noscript></noscript>
+<script></script>：	定义客户端脚本
+
+<noscript></noscript>:定义在脚本未被执行时的替代内容（文本）
 
 编程标签
-<embed></embed>
-<object></object>
-<var></var>
-<param></param>
-<menu></menu>
-<menuitem></menuitem>
-<command></command>
-<dialog></dialog>
+<embed></embed>：定义了一个容器，用来嵌入外部应用或者互动程序（插件）
+
+<object></object>：定义嵌入的对象
+
+<var></var>：定义文本的变量部分
+
+<param></param>：定义对象的参数
+
+<menu></menu>：定义菜单列表
+
+<menuitem></menuitem>：定义用户可以从弹出菜单调用的命令/菜单项目
+
+<command></command>：定义用户可能调用的命令（比如单选按钮、复选框或按钮）
+
+<dialog></dialog>:定义一个对话框或者窗口
 
 框架标签
-<frameset></frameset>
-<frame></frame>
-<noframes></noframes>
-<iframe></iframe>
+<iframe></iframe>：定义内联框架
 
+
+//***********************************************************************
+//HTML5 新增标签**********************************************************
+//***********************************************************************
+
+新结构语义元素
+<header></header>：定义页眉
+<nav></nav>：定义页面导航
+<main></main>：指定文档的主体内容
+<section></section>：定义了文档的某个区域
+<article></article>：定义一个文章内容
+<aside></aside>：定义其所处内容之外的内容
+<footer></footer>：定义页脚
+
+文本内容修饰标签
+<details></details>：定义了用户可见的或者隐藏的需求的补充细节
+<summary></summary>：定义一个可见标题，用户点击时会显示相应信息
+<mark></mark>：定义带有记号的文本
+<wbr></wbr>：规定在文本中的何处适合添加换行符
+<bdi></bdi>：允许您设置一段文本，使其脱离其父元素的文本方向设置
+<rp></rp>：定义不支持 ruby 元素的浏览器所显示的内容
+<rt></rt>：定义字符（中文注音或字符）的解释或发音
+<ruby></ruby>：定义 ruby 注释（中文注音或字符）
+<meter></meter>：定义度量衡，仅用于已知最大和最小值的度量
+<progress></progress>：定义运行中的任务进度（进程）
+<time></time>：	定义一个日期/时间
+<menuitem></menuitem>：定义用户可以从弹出菜单调用的命令/菜单项目
+<command></command>：定义用户可能调用的命令（比如单选按钮、复选框或按钮）
+<dialog></dialog>：定义一个对话框或者窗口
+
+新图像标签
+<canvas></canvas>：通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）
+<figure></figure>：用于对元素进行组合
+<figcaption></figcaption>：定义一个 caption for a <figure> element
+
+新多媒体元素
+<audio></audio>：定义声音，比如音乐或其他音频流
+<video></video>：定义一个音频或者视频
+<source></source>：定义media元素 (<video> 和 <audio>)的媒体资源
+<track></track>：为媒体(<video> 和 <audio>)元素定义外部文本轨道
+<embed></embed>：定义一个容器，用来嵌套外部应用
+
+新表单元素
+<datalist></datalist>：规定了 input 元素可能的选项列表
+<output></output>：定义一个计算的结果，输出
+<keygen></keygen>：规定用于表单的密钥对生成器字段
+
+
+//***********************************************************************
+//HTML5 废弃标签**********************************************************
+//***********************************************************************
+
+格式类标签
+<acronym></acronym>：定义只取首字母的缩写
+<center></center>：定义居中文本
+<strike></strike>：定义加删除线的文本
+<big></big>：定义大号文本
+<font></font>：定义文本字体、颜色、大小
+<tt></tt>：定义打字机文本
+
+框架类标签
+<frame></frame>
+<frameset></frameset>
+<noframes></noframes>
+
+列表类标签
+<dir></dir>：定义目录列表
+
+元信息类标签
+<basefont></basefont>：定义页面文本默认字体、颜色、大小
+
+程序类标签
+<applet></applet>：定义嵌入的applet
